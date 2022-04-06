@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Simple web Development Template</title>
+ 	    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#aa53ef" />
+    <link href="content/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- Page Title -->
+
+
+    <!-- CSS -->
+<!--     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" /> -->
+<!--     <link rel="stylesheet" href="content/css/landing-page.css" />
+    <link rel="stylesheet" href="content/css/site.css" /> -->
+<!--    	<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" /> -->
+<!-- /*    <link rel="stylesheet" href="content/css/landing-page.css" /> -->
+*/    <link rel="stylesheet" href="content/css/wrappedcontent.css" />
+<!-- /*    <link rel="stylesheet" href="content/css/site.css" />*/
+ -->
+	<style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        .search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+ 
+        .firstsection {
+            background-color: green;
+            height: 400px;
+        }
+ 
+        .secondsection {
+            background-color: blue;
+            height: 400px;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+ 
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+
+
+
+    </style>
+}
+</head>
+ 
+<body>
+    <div id="wrapped-primarypage" class="default-screen">
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "logo.png">
+            </div>
+            <li><a href="#web">Web Technology</a></li>
+            <li><a href="#program">C Programming</a></li>
+            <li><a href="#course">Courses</a></li>
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button id="wrapped-myBtn"  class="btn loginButton btn-sm">login</button>
+
+        </div>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web">Web Technology</h1>
+                <p class="text-small">
+                    HTML stands for HyperText Markup Language.
+                    It is used to design web pages using a markup
+                    language. HTML is the combination of Hypertext
+                    and Markup language. Hypertext defines the
+                    link between the web pages. A markup language
+                    is used to define the text document within tag
+                    which defines the structure of web pages.
+                    HTML is a markup language that is used by the
+                    browser to manipulate text, images, and other
+                    content to display it in the required format.
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="program">
+                    C Programming
+                </h1>
+                <p class="text-small">
+                    C is a procedural programming language. It
+                    was initially developed by Dennis Ritchie
+                    as a system programming language to write
+                    operating system. The main features of C
+                    language include low-level access to memory,
+                    simple set of keywords, and clean style,
+                    these features make C language suitable for
+                    system programming like operating system or
+                    compiler development.
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">Java</h1>
+ 
+            <p class="sectionSubTag text-small">
+                Java has been one of the most popular
+                programming language for many years.
+                Java is Object Oriented. However it is
+                not considered as pure object oriented
+                as it provides support for primitive
+                data types (like int, char, etc) The
+                Java codes are first compiled into byte
+                code (machine independent code). The
+                the byte code is run on Java Virtual
+                Machine (JVM) regardless of the
+                underlying architecture.
+            </p>
+ 
+ 
+        </div>
+ 
+        <div class="thumbnail">
+            <img src= "img.png" alt="laptop image">
+        </div>
+    </section>
+ 
+    <footer class="background">
+        <p class="text-footer">
+            Copyright ©-All rights are reserved
+        </p>
+ 
+ 
+    </footer>
+</div>
+
+<!-- WRAPPED HTML -->
+
+<div id="wrapped-insertHTML"></div>
+
+<!-- <div id="wrapped-myModal" class="wrapped-modal">
+ -->
+  <!-- Modal content -->
+<!--   <div class="wrapped-modal-content">
+    <span id ="wrapped-wrappedclose" class="wrapped-close">&times;</span>
+            <button id="wrapped-metamaskbutton" type="wrapped-button" class="wrapped-wallet-btn">
+            <img width="45" src="content/images/metamask.svg" alt="Metamask" />
+            <h5 class="wrapped-popup__subheading">Metamask</h5>
+            <p class="mb-0 text-muted">Connect to your MetaMask Wallet</p>
+        </button>
+        <button id="wrapped-walletconnectbutton" type="wrapped-button" class="wrapped-wallet-btn">
+            <img width="45" src="content/images/walletconnect.svg" alt="WalletConnect" />
+            <h5 class="wrapped-popup__subheading">WalletConnect</h5>
+            <p class="mb-0 text-muted">Scan with WalletConnect to connect</p>
+        </button>
+  </div>
+
+</div>
+<div class="wrapped-claim-your-nft-popup">
+<div id='wrapped-authdisplay' class="wrapped-site-popup wrapped-claim-your-nft-popup-content">
+<h3 id="wrapped-Wait"class="wrapped-popup__subheading">Authorization Failed</h3>
+<h2 id="wrapped-Blockchain" class="wrapped-popup__heading">You do not have an NFKey</h2>
+<button id='wrapped-claim' onclick="" type="button" class="wrapped-btn">CLAIM YOUR NFKEY</button>
+</div>
+</div> -->
+<!-- WRAPPED HTML -->
+
+
+<!-- <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+ -->
+    <!-- Scripts -->
+    <script type="module" src="scripts/wrappedconfig.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.7.5/dist/umd/index.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module"src="scripts/NFKEYWRAPPER.js"></script>
+</body>
+ 
+</html>

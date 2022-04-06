@@ -1,0 +1,177 @@
+.wrapped-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.wrapped-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+  height:50%
+}
+.wrapped-modal .wrapped-wallet-btn {
+    border: 0;
+    outline: 0;
+    background: none;
+    padding: 2rem;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    transition: 350ms ease-in-out;
+    border-radius: 1rem;
+}
+.wrapped-modal .wrapped-wallet-btn:hover {
+    background-color: #f5f5f5;
+}
+.wrapped-popup__subheading {
+
+	color: black 
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+
+/* The Close Button */
+.wrapped-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.wrapped-close:hover,
+.wrapped-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.wrapped-wallet-manage-popup    {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   z-index: 11;
+}
+
+
+
+.wrapped-wallet-manage-popup-content    {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 35%;
+  height:40%;
+  text-align: center;
+}
+.wrapped-wallet-manage-popup .wrapped-wallet-btn {
+
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+ position: relative;
+ bottom: -150px;
+  right: -70px;
+} 
+
+.wrapped-text-center {
+    text-align: center;
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+ .wrapped-claim-your-nft-popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.wrapped-claim-your-nft-popup-content {
+ text-align: center;
+  background-color: #262525;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  height:40%
+}
+#wrapped-claim {
+    display: inline;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    background: #fd6b6e;
+    background: -moz-linear-gradient(left, #fd6b6e 0%, #f37873 20%, #c7b18a 78%, #bbc191 100%);
+    background: -webkit-linear-gradient(left, #fd6b6e 0%, #f37873 20%, #c7b18a 78%, #bbc191 100%);
+    background: linear-gradient(to right, #fd6b6e 0%, #f37873 20%, #c7b18a 78%, #bbc191 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd6b6e', endColorstr='#bbc191', GradientType=1);
+    border: 0;
+    line-height: 1;
+    cursor: pointer;
+    padding: 1rem 2.24rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.35rem 0 #83413c;
+    transition: 350ms ease-in-out;
+}
+
+#wrapped-Blockchain.wrapped-popup__heading {
+	color:white;
+	 padding: 1rem 2.24rem;
+	text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+} 
+#wrapped-Wait{
+	 padding: 1rem 2.24rem;
+	display: block;
+	bottom: -150px;
+  	right: -10px;
+	color: white ;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+#wrapped-secondarypage{ 
+display:none; 
+ }
+ #wrapped-NFTimage{ 
+visibility: visible;
+display:none; 
+
+} 
+#wrapped-NFTimagediv{ 
+display: none; }

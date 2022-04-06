@@ -1,0 +1,16 @@
+<!-- WRAPPED WALLET MANAGE -->
+<div id="wrapped-walletmanage" class="wrapped-wallet-manage-popup">
+  <div class="wrapped-wallet-manage-popup-content">
+    	<h2>Wallet manage</h2>
+        <button  id="wrapped-anotherwallet"  type="button" class="wrapped-wallet-btn">
+            <p class="mb-0 text-muted">Use another wallet</p>
+        </button>
+        <button id="wrapped-disconnect" type="button" class="wrapped-wallet-btn">
+            <p class="mb-0 text-muted">Disconnect</p>
+        </button>
+        <button id="wrapped-cancel" type="button" class="wrapped-wallet-btn">
+            <p class="mb-0 text-muted">Cancel</p>
+        </button>
+  </div>
+   </div>
+<!--WRAPPED WALLET MANAGE -->
